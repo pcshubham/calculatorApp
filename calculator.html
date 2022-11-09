@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="calfun.js"></script>
+</head>
+<body>
+    <style>
+        #div1
+        {
+            border: 2px;
+            border-color: black;
+            border-radius: 3px;
+            border-style: solid;
+            padding: 10px;
+            margin: 20px;
+            width: fit-content;
+        }
+    </style>
+
+    <header>
+        <div style="background-color: skyblue; color: white;">
+        <h1>Calculator In Javascript</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="div1"> 
+        <input type="text" name="num1" id="tb1" placeholder="Enter First No Here"> <br>
+        <input type="text" name="num2" id="tb2" placeholder="Enter Second No Here" style="margin-top: 10px;"> <br>
+        <center>
+        <input type="button" value="+" id="add" style="margin-top: 10px;" onclick="add()">
+        <input type="button" value="-" id="sub" style="margin-left: 10px;" onclick="sub()">  
+        <input type="button" value="*" id="mul" style="margin-left: 10px;" onclick="mul()">
+        <input type="button" value="/" id="divi" style="margin-left: 10px;" onclick="divi()">
+        <input type="button" value="C" id="clr" style="margin-left: 10px;" onclick="clr()"> <br>
+        <input type="text" name="num3" id="tb3" placeholder="Result" style="margin-top: 10px;"> 
+        </center>
+        </div>
+    </main>
+
+<footer></footer>
+
+</body>
+</html>
